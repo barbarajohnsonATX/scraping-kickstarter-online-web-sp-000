@@ -22,9 +22,8 @@ def create_project_hash
   
     # description:
     project.css("p.bbcard_blurb").text
-    
-  
     binding.pry 
+  
   end 
 end
 
